@@ -7,7 +7,7 @@ from langdetect import detect, LangDetectException
 from rake_nltk import Rake
 
 # Name of the file and sheet
-EXCEL_FILE_PATH = 'data\nlp_hw1_raw.xlsx' 
+EXCEL_FILE_PATH = r'data\nlp_hw1_raw.xlsx' 
 SHEET_NAME = 'Sayfa1'
 
 # Initilize constants for column names

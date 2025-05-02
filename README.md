@@ -1,4 +1,4 @@
 Dependencies: 
 ```bash
-pip install pandas nltk langdetect rage_nltk
+pip install pandas nltk langdetect rage_nltk openpyxl
 ```
