@@ -1,2 +1,4 @@
-# nlp_5th_group
-Natural Language Processing Term Project 5th Group
+Dependencies: 
+```bash
+pip install pandas nltk langdetect rage_nltk
+```
