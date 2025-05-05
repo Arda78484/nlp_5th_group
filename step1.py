@@ -7,7 +7,7 @@ from langdetect import detect, LangDetectException
 from rake_nltk import Rake
 
 # Name of the file and sheet
-EXCEL_FILE_PATH = r'data\nlp_hw1_raw.xlsx' 
+EXCEL_FILE_PATH = r'raw_data\nlp_hw1_raw.xlsx' 
 SHEET_NAME = 'Sayfa1'
 
 # Initilize constants for column names
@@ -170,7 +170,7 @@ print("\n--- Sample Processed Data (First 5 Rows) ---")
 print(output_df.head())
 
 SAVE_OUTPUT = True
-OUTPUT_FILE_PATH = 'processed_nlp_articles.xlsx'
+OUTPUT_FILE_PATH = r'processed_data\processed_nlp_articles.xlsx'
 
 if SAVE_OUTPUT:
     print(f"\nSaving processed data to {OUTPUT_FILE_PATH}...")
